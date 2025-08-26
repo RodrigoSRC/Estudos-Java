@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao;
 /**
  * Essa é uma classe de exemplo para o DevDojo.
  */
-public class OlaDevDojo {
+public class _01_OlaDevDojo {
     // Isso é um comentário de uma linha
     /* Isso é um comentário de múltiplas linhas
        que pode abranger várias linhas */
