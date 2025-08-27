@@ -32,5 +32,13 @@ public class _04_Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
 
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation5 = 5000F;
+
+        boolean isPlaystation5Compravel = valorTotalContaCorrente + valorTotalContaPoupanca > valorPlaystation5 || valorTotalContaPoupanca > valorPlaystation5;
+        System.out.println("isPlaystation5Compravel "+isPlaystation5Compravel);
+
     }
 }
