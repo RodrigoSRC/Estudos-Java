@@ -33,5 +33,9 @@ public class _02_TiposPrimitivos {
     // boolean: verdadeiro ou falso
     boolean ativo = true; // indica se está ativo
     System.out.println("Está ativo? " + ativo);
+
+
+    String nome = "João"; // nome de uma pessoa
+    System.out.println("Nome: " + nome);
     }
 }
