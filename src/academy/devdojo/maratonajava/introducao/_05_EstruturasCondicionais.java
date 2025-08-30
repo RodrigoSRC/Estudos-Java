@@ -37,7 +37,7 @@ public class _05_EstruturasCondicionais {
         // } else {
         //     resultado = mensagemNaoDoar;
         // }
-        
+
         System.out.println(resultado);
     }
 }
