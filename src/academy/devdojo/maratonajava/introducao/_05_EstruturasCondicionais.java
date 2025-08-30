@@ -24,5 +24,20 @@ public class _05_EstruturasCondicionais {
             categoria = "Categoria adulto";
         }
         System.out.println(categoria);
+
+
+        double salario = 6000.00;
+
+        String mensagemDoar = "Doarei 500";
+        String mensagemNaoDoar = "Não tenho condições de doar";
+        String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
+
+        // if(salario > 5000.00) {
+        //     resultado = mensagemDoar;
+        // } else {
+        //     resultado = mensagemNaoDoar;
+        // }
+        
+        System.out.println(resultado);
     }
 }
