@@ -94,5 +94,29 @@ public class _05_EstruturasCondicionais {
                 System.out.println("Só existem 2 gêneros e só Cristo salva");
                 break;
         }
+
+
+
+        byte day = 1;
+
+        switch (day) {
+            case 1:
+            case 7:
+                System.out.println("Final de semana");
+                break;
+                
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Dia da semana");
+                break;
+
+            default:
+                System.out.println("Esse dia nem existe kkkkkkkkkkkk");
+                break;
+        }
+
     }
 }
