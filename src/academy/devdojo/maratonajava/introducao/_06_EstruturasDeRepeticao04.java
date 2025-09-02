@@ -7,11 +7,7 @@ public class _06_EstruturasDeRepeticao04 {
         double valorTotal = 30000;
         for (int parcela = 1; parcela <= valorTotal; parcela++) {
             double valorParcela = valorTotal / parcela;
-            if (valorParcela >= 1000) {
-                System.out.println("Valor da parcela: " + valorParcela);
-            } else {
-                break;
-            }
+            if (valorParcela > 1000) break;
         }
     }
 }
