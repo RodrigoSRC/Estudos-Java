@@ -8,12 +8,12 @@ public class CarroTest01 {
         Carro carro = new Carro();
         Carro carro2 = new Carro();
 
-        carro.nome = "Gol bolinha, o mais sinistro de campo grande"
-        carro.modelo = "Pra impressionar as 9nha"
+        carro.nome = "Gol bolinha, o mais sinistro de campo grande";
+        carro.modelo = "Pra impressionar as 9nha";
         carro.ano = 2010;
 
-        carro2.nome = "Chevette turbinado"
-        carro2.modelo = "Drifiteiro da área"
+        carro2.nome = "Chevette turbinado";
+        carro2.modelo = "Drifiteiro da área";
         carro2.ano = 1985;
 
         carro2 = carro;
