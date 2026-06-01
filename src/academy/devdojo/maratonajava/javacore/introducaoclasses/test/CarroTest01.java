@@ -16,6 +16,8 @@ public class CarroTest01 {
         carro2.modelo = "Drifiteiro da área"
         carro2.ano = 1985;
 
+        carro2 = carro;
+
         System.out.println("\nCarro1");
         System.out.println("Nome: " + carro.nome);
         System.out.println("Modelo: " + carro.modelo);
