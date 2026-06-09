@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.javacore.introducaometodos.dominio;
 
 public class Calculadora {
-    public static void main(String[] args) {
-        
+    public void somaDoisNumeros() {
+        System.out.println(10 + 10);
     }
 }
