@@ -8,7 +8,7 @@ public class _08_ArraysMultidimensionais03 {
 
     arrayInt[0] = new int[2];
     arrayInt[1] = array;
-    arrayInt[2] = new int[6]{4, 5, 6, 7, 8, 9};
+    arrayInt[2] = new int[]{4, 5, 6, 7, 8, 9};
 
     int[][] arrayInt2 = {{0, 0}, {1, 2, 3}, {4, 5, 6, 7, 8, 9}};
 
