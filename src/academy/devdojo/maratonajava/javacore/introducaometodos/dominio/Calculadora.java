@@ -10,10 +10,10 @@ public class Calculadora {
     public void multiplicaDoisNumeros(int num1, int num2) {
         System.out.println(num1 * num2);
     }
-    public double divideDoisNumeros(double num1, double num2) {
+    public int divideDoisNumeros(double num1, double num2) {
         if (num2 == 0) {
             return 0;
         }
-        return num1 / num2;
+        return (int) (num1 / num2);
     }
 }
