@@ -8,5 +8,8 @@ public class CalculadoraTest04 {
         int num1 = 1;
         int num2 = 2;
         calculadora.alteraDoisNumeros(num1, num2);
+        System.out.println("Dentro do CalculadoraTest04");
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
     }
 }
