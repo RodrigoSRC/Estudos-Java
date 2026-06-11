@@ -9,8 +9,8 @@ public class Pessoa {
         System.out.println(idade);
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String x) {
+        nome = x;
     }
     public void setIdade(int idade) {
         this.idade = idade;
