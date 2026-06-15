@@ -14,6 +14,10 @@ public class Anime {
         this.genero = genero;
     }
 
+    public Anime(){
+        
+    }
+
 
     public void imprime() {
         System.out.println(this.nome);
