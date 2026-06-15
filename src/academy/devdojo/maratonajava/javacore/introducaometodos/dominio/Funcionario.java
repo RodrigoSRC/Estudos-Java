@@ -58,5 +58,7 @@ public class Funcionario {
     public double[] getSalario() {
         return salario;
     }
-    
+    public double getMedia() {
+        return media;
+    }
 }
