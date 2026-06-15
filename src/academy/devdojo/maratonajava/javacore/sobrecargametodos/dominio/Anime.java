@@ -5,6 +5,12 @@ public class Anime {
     private String tipo;
     private int episodios;
 
+    public void init(String nome, String tipo, int episodios) {
+        this.nome = nome;
+        this.tipo = tipo;
+        this.episodios = episodios;
+    }
+
     public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.tipo);
