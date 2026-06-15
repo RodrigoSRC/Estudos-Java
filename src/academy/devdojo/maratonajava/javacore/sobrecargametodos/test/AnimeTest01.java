@@ -7,6 +7,7 @@ public class AnimeTest01 {
         Anime anime = new Anime();
         anime.setTipo("TV");
         anime.setEpisodios(12);
+        anime.imprime();
     }
     
 }
