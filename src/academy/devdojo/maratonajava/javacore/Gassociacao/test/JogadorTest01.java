@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Gassociacao.test;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 import academy.devdojo.maratonajava.javacore.Gassociacao.dominio.Jogador;
 
