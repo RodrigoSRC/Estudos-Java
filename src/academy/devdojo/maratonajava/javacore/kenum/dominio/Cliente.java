@@ -1,45 +1,25 @@
 package academy.devdojo.maratonajava.javacore.kenum.dominio;
 
 public class Cliente {
+    public enum TipoPagamento {
+        DEBITO,
+        CREDITO;
+    }
+
     private String nome;
-    private TipoCliente tipo;
-    // public static final String PESSOA_FISICA = "PESSOA_FISICA";
-    // public static final String PESSOA_JURIDICA = "PESSOA_JURIDICA";
+    private TipoCliente tipoCliente;
+    private TipoPagamento tipoPagamento;
 
-    public Cliente(String nome, TipoCliente tipo) {
-        // if (!tipo.equals(PESSOA_FISICA) && !tipo.equals(PESSOA_JURIDICA)) {
-        // System.out.println("Tipo inválido");
-        // return;
-        // }
-        // if (tipo.equals(PESSOA_FISICA)) {
-        // System.out.println("Pessoa física");
-        // } else if (tipo.equals(PESSOA_JURIDICA)) {
-        // System.out.println("Pessoa jurídica");
-        // }
-
+    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
     }
 
     @Override
     public String toString() {
-        return "Cliente [nome=" + nome + ", tipo=" + tipo + "]";
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public TipoCliente getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(TipoCliente tipo) {
-        this.tipo = tipo;
+        return "Cliente [nome=" + nome + ", tipoCliente=" + tipoCliente.getValor() + ", tipoPagamento=" + tipoPagamento
+                + "]";
     }
 
 }
