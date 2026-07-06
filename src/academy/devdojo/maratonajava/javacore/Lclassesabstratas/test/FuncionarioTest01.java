@@ -9,5 +9,7 @@ public class FuncionarioTest01 {
         System.out.println(gerente);
         Desenvolvedor desenvolvedor = new Desenvolvedor("Gon Freecss", 12000.00);
         System.out.println(desenvolvedor);
+        gerente.imprime();
+        desenvolvedor.imprime();
     }
 }
